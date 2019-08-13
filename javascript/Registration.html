@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+<!--  <script src="javascript.js" type="text/javascript" ></script> -->
+
+ <style>
+ .grid-item{
+     display: grid;
+     border: 5px solid green;
+     padding:5px;
+     grid-row-gap:5px; 
+     font-size: 10px;
+     width: 350px;
+     border-radius:9px; 
+   }
+
+ 
+ 
+ </style> 
+
+
+</head>
+
+
+<body>
+   <form name="RegForm" method="POST">
+       <div class="grid-item">  
+       Fname:<br>
+         <input name="fname" type="text"> <br>
+       Lname:<br>
+         <input name="lame" type="text"><br>
+       Email:<br>
+        <input name="en" type="email"> <br> 
+       Phone:<br>
+        <input name="mb" type="tel"> <br> 
+       Password:<br>
+        <input name="pw" type="Password"> <br> 
+      Cpassword:<br>
+        <input name="cpw" type="password"> <br> 
+      Address:- <br>
+        <textarea wrap ="virtual" name="add" value="add" rows="3" cols="22"></textarea> <br>
+      year : <br>
+       <input list="year" name="yr" > <br>
+        <datalist  id="year">
+          <option value="2019" >
+          <option value="2018">
+          <option value="2017"> 
+          <option value="2016">
+          <option value="2015">
+          <option value="2014">
+            <option value="2013">
+                <option value="2012">
+                    <option value="2011">
+                        <option value="2011">
+                            <option value="2010">  
+        </datalist>
+      Gender:<input type="radio" name="gn" value="Male" >MALE
+      <input type="radio" name="gn" value="FeMale" >FEMALE   
+       <BR><br> COLLEGE NAME:         
+          <input type="checkbox" name="c1" value="tsl" checked>TSL
+          <input type="checkbox" name="c1" value="tiu">TIU
+          <input type="checkbox" name="c1" value="tiit">TIIT
+       
+        <input type="submit" value="Register" >
+        </div>  </form> 
+
+
+
+      
+</body>
+</html>

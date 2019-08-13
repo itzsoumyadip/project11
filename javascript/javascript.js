@@ -1,5 +1,6 @@
+alert("connected ");
 
-function val()
+let val= ()=>
 {
      var fname = document.forms["RegForm"]["fname"];
      var lname = document.forms["RegForm"]["lname"];
@@ -23,7 +24,7 @@ function val()
            lname.focus();
            return false;
       if (address.value == "")
-}
+{
      window.alert("please enter your address.");
            name.focus();
            return false;
@@ -83,3 +84,4 @@ function val()
            return false;
 }     
           
+
