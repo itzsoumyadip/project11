@@ -1,4 +1,4 @@
-let val = () => {
+function val  (){
     var fname = document.forms["RegForm"]["fname"];
     var lname = document.forms["RegForm"]["lname"];
     var email = document.forms["RegForm"]["en"];
