@@ -1,3 +1,5 @@
+
+
 function val  (){
     var fname = document.forms["RegForm"]["fname"];
     var lname = document.forms["RegForm"]["lname"];
@@ -42,7 +44,7 @@ function val  (){
     }
     if (password.value == "") {
 
-        window.alert("please enter your password.");
+        window.alert("please enter your password."); 
         password.focus();
         return false;
     }

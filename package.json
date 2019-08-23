@@ -1,0 +1,22 @@
+{
+  "name": "project11",
+  "version": "1.0.0",
+  "description": "college project\r <a href=\"audioTable.html\"> click here for audio in a table project </a>\r <br><a href=\"https://itzsoumyadip.github.io/project11/\">click here</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzsoumyadip/project11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzsoumyadip/project11/issues"
+  },
+  "homepage": "https://github.com/itzsoumyadip/project11#readme",
+  "devDependencies": {
+    "eslint": "^6.2.1"
+  }
+}
