@@ -1,0 +1,12 @@
+div.dis{
+
+max-width: 500px;
+margin: auto;
+border: 3px solid #73ad21;
+color:"red";
+/*visibility: hidden; */
+display: none;
+display: flex;
+display:grid;
+
+}

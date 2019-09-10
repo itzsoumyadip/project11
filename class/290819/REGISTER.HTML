@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<HTML>
+
+<head>
+    <title> registration-page </title>
+
+
+</head>
+
+<body>
+
+    <form name="RegForm" action="get.php" onsubmit="return val()" method="POST">
+        <div class="dis">FNAME: &nbsp &nbsp<input type="txt" name="fname" size="10" maxlength="30"> LNAME: &nbsp &nbsp<input type="txt" name="lname" size="10" maxlength="30"> MOBILE: &nbsp &nbsp <input type="txt" name="mb" size="10" maxlength="30"> ADDRESS: &nbsp &nbsp
+            <textarea wrap="virtual" name="add" rows=3 cols=20></textarea> EMAIL: <input type="txt" name="em" size="10" maxlength="30"> PASSWORD : <input type="txt" name="pw" size="10" maxlength="30"> CONFIRM PASSWORD : <input type="txt" name="cpw" size="10"
+                maxlength="30"> SELECT YEAR: &nbsp &nbsp<select name="yr">
+<option> 2009 </option>
+<option> 2010 </option>
+<option> 2011 </option>
+<option> 2012 </option>
+<option> 2013 </option>
+<option> 2014 </option>
+<option> 2015 </option>
+<option> 2016 </option>
+<option> 2017 </option>
+<option> 2018 </option>
+<option selected> 2019 </option>
+<option> 2020 </option>
+</select>
+            <input type="radio" name="gn" value="male"> MALE
+            <input type="radio" name="gn" value="female"> FEMALE <br> SELECT COLLEGE NAME <br>
+            <input type="checkbox" name="cl" value="TISL"> TISL
+            <input type="checkbox" name="cl" value="TIIT"> TIIT
+            <input type="checkbox" name="cl" value="SMIT"> SMIT
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+
+</HTML>
