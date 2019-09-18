@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>author Insert</title>
+    <style>
+        form {
+            position:absolute ;
+            left: 500px;
+            width:450px;
+        }
+        #outer{
+            padding: 10px;
+            border:1px solid gray;
+            box-shadow: 3px 3px 5px 2px #ccc;
+            background-color:skyblue;
+        } 
+     #inner {
+         padding: 5px ;
+         border: 1.5px dashed rgb(122, 55, 185);
+         border-radius:2%; 
+         background-color:white;
+      }
+      #inner input{
+        width:300px;
+      }
+      input[type=submit]{
+          background-color:rgba(63, 250, 78, 0.5);
+          box-shadow: 0px 0px 5px 2px rgba(63, 250, 78, 0.5);
+          padding:6px;     
+      }
+      iframe{
+          position: absolute;
+          height:300px ;
+          width:450px; 
+          left:500px;
+          top:360px;
+     visibility: hidden;
+      }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="insertMysql.php" method="POST">
+    <div id="outer">
+      <div id="inner"> 
+         Author ID: <input type="text" name="aid" autofocus ><BR><BR><BR>
+         Author NAME: <input type="text" name="aname"><BR><BR><BR>
+         Last NAME :  <input type="text" name="lname"><BR><BR><BR>
+         Pen NAME :  <input type="text" name="pname"><BR><BR><BR>
+       </div>
+      <input type="submit" value="submit">
+      </div>
+    </form>
+    <div>
+   <iframe src="selectMysqlData.php" name="myframe"></iframe><br>
+   <button a href="selectMysqlData.php" target="myframe" onclick="fire()" > my web</a></button>  <br>
+
+
+    </div>
+</body>
+<script>
+   function fire(){
+       let frame = document.querySelector("iframe");
+      if(frame.style.visibility == 'visible'){
+        frame.style.visibility = 'hidden';
+
+      }
+    else{frame.style.visibility = 'visible' }   
+   }
+
+</script>
+</html>
