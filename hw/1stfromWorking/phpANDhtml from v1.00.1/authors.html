@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>author Insert</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+  <form action="insertMysql.php" method="POST">
+    <div id="outer">
+      <div id="inner">
+        Author ID: <input type="text" name="aid" autofocus><BR><BR><BR>
+        Author NAME: <input type="text" name="aname"><BR><BR><BR>
+        Last NAME : <input type="text" name="lname"><BR><BR><BR>
+        Pen NAME : <input type="text" name="pname"><BR><BR><BR>
+      </div>
+      <input type="submit" value="submit">
+    </div>
+  </form>
+ 
+  
+ 
+ 
+ 
+ 
+  <div>
+    <iframe src="selectMysqlData.php" name="myframe"></iframe><br>
+    <button a href="selectMysqlData.php" target="myframe" onclick="fire()"> my web</a></button> <br>
+
+
+  </div>
+</body>
+<script src="script.js"> </script>
+
+</html>
